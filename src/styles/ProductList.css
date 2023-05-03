@@ -1,0 +1,16 @@
+.product-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:3rem;
+  margin: 0 4rem;
+  margin-bottom: 12rem;
+}
+@media screen and (max-width: 500px){
+  .product-list{
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+}
